@@ -1,0 +1,36 @@
+.flex{
+	display: flex;
+}
+.flex-bt{
+	display: flex;
+	justify-content: space-between;
+}
+.flex-center{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.flex-v-center{
+	display: flex;
+	align-items: center;
+}
+.flex-h-center{
+	display: flex;
+	justify-content: center;
+}
+
+.ps-rel{
+	position:relative;
+}
+.ps-abs{
+	position:absolute;
+}
+.ps-center{
+	left:50%;
+	top:50%;
+	transform: translate(-50%,-50%);
+}
+.ps-r-bottom{
+	bottom:30upx;
+	right:18upx;
+}
