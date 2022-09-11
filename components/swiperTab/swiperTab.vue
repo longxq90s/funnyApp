@@ -23,7 +23,7 @@
 <script>
 import cardIndex from '@/components/card-index/card-index.vue';
 
-import loadMore from '@/components/common/load-more.vue'
+import loadMore from '@/components/common/loadMore.vue'
 
 export default {
 	name: 'swiperTab',
