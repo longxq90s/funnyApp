@@ -16,7 +16,7 @@
 
 <script>
 
-import swiperTab from "../../components/swiperTab/swiperTab.vue"
+import swiperTab from "@/components/swiperTab/swiperTab.vue"
 
 export default {
 	components: {

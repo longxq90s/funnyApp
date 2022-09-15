@@ -40,8 +40,9 @@
             "path" : "pages/news/news",
             "style" :                                                                                    
             {
-                "navigationBarTitleText": "",
-                "enablePullDownRefresh": false
+                "app-plus": {
+                	"titleNView": false
+                }
             }
             
         }
@@ -92,7 +93,15 @@
 				}
             }
             
-        }
+        },{
+			"path": "pages/moreClass/moreClass",
+			"style": {
+				"navigationBarTitleText": "话题分类",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		}
     ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
