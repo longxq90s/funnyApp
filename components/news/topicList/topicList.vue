@@ -1,5 +1,5 @@
 <template>
-	<view class="topic-list flex animated fadeInLeft fast">
+	<view class="topic-list flex animated fadeInLeft fast" @tap="getDetail">
 		<image :src="item.titlepic" mode="widthFix" lazy-load></image>
 		<view class="flex-sa" style="flex-direction: column;">
 			<view>#{{item.title}}#</view>
@@ -14,6 +14,14 @@
 		props:{
 			item:Object,
 			index:Number
+		},
+		data(){},
+		methods:{
+			getDetail(){
+				uni.navigateTo({
+					url:"/pages/themeDetail/themeDetail"
+				})
+			}
 		}
 	}
 </script>

@@ -25,7 +25,9 @@
 					<!-- 最近更新 -->
 					<view class="topic-new">
 						<view>最近更新</view>
-						<block v-for="(item, index) in topic.list" :key="index"><topic-list :item="item" :index="index"></topic-list></block>
+						<block v-for="(item, index) in topic.list" :key="index">
+							<topic-list :item="item" :index="index"></topic-list>
+						</block>
 					</view>
 				</scroll-view>
 			</swiper-item>
